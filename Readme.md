@@ -118,6 +118,8 @@ Test connectivity using `ping`:
 
 All pings should succeed.
 
+![alt text](images/verify-internal-connectivity.png)
+
 ### **5.2 Verify External Isolation**
 From each guest OS:
 
@@ -128,6 +130,7 @@ ping 8.8.8.8
 
 All attempts must **fail**, confirming isolation from the Internet and host OS.
 
+![alt text](images/external-connectivity-failed.png)
 ---
 
 ## **6. Network Simulation with REMnux (INetSim)**
@@ -140,6 +143,8 @@ inetsim
 ```
 
 This displays active simulated services, ports, and process IDs.
+
+![alt text](images/inetsim-active-services.png)
 
 ### **6.2 Enable DNS Simulation**
 Edit the INetSim configuration:
@@ -182,6 +187,8 @@ Set DNS server to:
 - **10.0.0.13 (REMnux)**
 
 This forces all domain lookups to resolve to INetSim.
+
+![alt text](images/inetsim_landing_page.png)
 
 ---
 
@@ -259,5 +266,6 @@ These serve as rollback points after malware execution.
 ---
 
 ![alt text](images/flareVM_OS.png)
-#### Windows FlareVM Guest OS
+<p align="center">FlareVM on Windows </p>
+
 ---
