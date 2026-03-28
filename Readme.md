@@ -31,15 +31,18 @@ This cyber lab environment is designed to support hands‑on learning and profes
 
 ### **2.2 Required Software**
 1. **Oracle VirtualBox**  
-   `https://www.oracle.com/virtualization/technologies/vm/downloads/virtualbox-downloads.html` [(oracle.com in Bing)](https://www.bing.com/search?q="https%3A%2F%2Fwww.oracle.com%2Fvirtualization%2Ftechnologies%2Fvm%2Fdownloads%2Fvirtualbox-downloads.html")  
+   https://www.oracle.com/virtualization/technologies/vm/downloads/virtualbox-downloads.html
+
 2. **Windows 11 ISO**  
-   `https://www.microsoft.com/en-us/software-download/windows11` [(microsoft.com in Bing)](https://www.bing.com/search?q="https%3A%2F%2Fwww.microsoft.com%2Fen-us%2Fsoftware-download%2Fwindows11")  
+   https://www.microsoft.com/en-us/software-download/windows11
+
 3. **FlareVM (PowerShell installation script)**  
    [https://github.com/mandiant/flare-vm](https://github.com/mandiant/flare-vm)  
 4. **REMnux (OVA image)**  
-   `https://remnux.org/#distro` [(remnux.org in Bing)](https://www.bing.com/search?q="https%3A%2F%2Fremnux.org%2F%23distro")  
+   https://remnux.org/#distro
+
 5. **Kali Linux**  
-   `https://www.kali.org/get-kali/#kali-platforms` [(kali.org in Bing)](https://www.bing.com/search?q="https%3A%2F%2Fwww.kali.org%2Fget-kali%2F%23kali-platforms")  
+   https://www.kali.org/get-kali/#kali-platforms
 
 ---
 
@@ -179,7 +182,7 @@ Save and exit:
 With INetSim running:
 
 - From FlareVM, open browser and navigate to:  
-  **`http://10.0.0.13` [(10.0.0.13 in Bing)](https://www.bing.com/search?q="http%3A%2F%2F10.0.0.13%2F")**
+  http://10.0.0.13
 
 ### **6.4 Configure FlareVM DNS**
 Set DNS server to:
@@ -225,7 +228,7 @@ These serve as rollback points after malware execution.
    ```
    git clone https://github.com/vxunderground/MalwareSourceCode.git
    ```
-   *Do not visit their official website.*
+   *Warning: Do not visit their official website.*
 
 3. **Lenny Zeltser’s Malware Sample Sources**  
    https://zeltser.com/malware-sample-sources/
