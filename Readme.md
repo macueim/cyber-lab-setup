@@ -221,15 +221,14 @@ These serve as rollback points after malware execution.
    ```
 
 2. **VX Underground – Malware Source Code**  
-   `https://github.com/vxunderground/MalwareSourceCode` [(github.com in Bing)](https://www.bing.com/search?q="https%3A%2F%2Fgithub.com%2Fvxunderground%2FMalwareSourceCode")  
+   https://github.com/vxunderground/MalwareSourceCode
    ```
    git clone https://github.com/vxunderground/MalwareSourceCode.git
    ```
    *Do not visit their official website.*
 
 3. **Lenny Zeltser’s Malware Sample Sources**  
-   `https://zeltser.com/malware-sample-sources/` [(zeltser.com in Bing)](https://www.bing.com/search?q="https%3A%2F%2Fzeltser.com%2Fmalware-sample-sources%2F")
-
+   https://zeltser.com/malware-sample-sources/
 ---
 
 ## **10. Static Analysis Tools (Top 10)**
